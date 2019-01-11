@@ -8,6 +8,7 @@ public class KeyMap {
         // c + s +ent 跳到编辑区
         // alt + num 跳转窗口
         // c + s +f10 运行
-        //
+        // alt + insert 新建文件
+        // ctrl + alt + t 包裹
     }
 }
