@@ -15,5 +15,6 @@ public class Test {
         int m = scanner.nextInt();
         System.out.println(n + "和" + m + "的最大公约数是：" + contral.gcd(n, m));
         System.out.println("最小公倍数是：" + contral.lcm(n, m));
+
     }
 }
