@@ -1,6 +1,7 @@
 import day02.Contral;
 import day04.Car;
 import day04.Date;
+import day04.Stochastic;
 import day04.Student;
 
 import javax.sound.midi.Soundbank;
@@ -39,6 +40,8 @@ public class Test {
         System.out.println(date.format());
         int dayForYear = date.getDayForYear(2018, 1, 1);
         System.out.println("这一天是今年的第" + dayForYear + "天");
+
+        new Stochastic().call_over();
 
     }
 }
