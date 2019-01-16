@@ -3,6 +3,8 @@ import day04.Car;
 import day04.Date;
 import day04.Stochastic;
 import day04.Student;
+
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Test {
@@ -39,7 +41,7 @@ public class Test {
         int dayForYear = date.getDayForYear(2018, 1, 1);
         System.out.println("这一天是今年的第" + dayForYear + "天");
 
-        //点名测试
+        // 点名测试
         String[] name = {"陈月芳", "刘立超", "邓超元", "赵明睿", "赵晨锦", "金谡",
                 "杨斌", "杨恒", "李静雅", "王雅雯", "王强", "师尧", "吴凯平",
                 "韩思远", "陈慧慧", "李欣", "王一茗", "李奕霖", "苏宏月", "赵灿"};
